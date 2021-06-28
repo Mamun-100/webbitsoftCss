@@ -9,22 +9,56 @@ body {
   line-height: 18px;
   color: #000;
 }
+
+/*   template    */
 .template {
   width: 80%;
   background: rgb(220, 231, 231);
   margin: 0 auto;
 }
+
+/*  header part  */
 .headersection {
   height: 85px;
   background: rgb(31, 30, 30);
   color: #fff;
 }
-.headersection h2 {
-  font-size: 27px;
-  text-align: center;
-  padding-top: 30px;
+.comlogo {
+  width: 10%;
+  float: left;
 }
 
+.comlogo img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.comname {
+  color: yellow;
+  text-shadow: 2px 1px rgb(14, 110, 38), 0 1px rgb(16, 141, 53), 1px 0 rgb(4, 97, 35), 0 -1px rgb(6, 85, 59);
+  width: 50%;
+  float: left;
+  padding-left: 3em;
+  padding-top: 2em;
+}
+.socialmediaicon {
+  width: 30%;
+  float: right;
+  padding-top: 1.3em;
+  padding-right: 1.3em;
+}
+
+.socialmediaicon img{
+  
+  float: right;
+  border-radius: 50%;
+  border:1px solid #000
+  
+
+}
+
+
+/*  menubar part  */
 .navsection {
   background: #c4f377;
   height: 3.3em;
@@ -34,42 +68,38 @@ body {
 .navsection ul li {
   list-style: none;
   display: inline;
-  text-align: center;
+  padding: 0px 20px;
+ 
 }
 
 .navsection ul li a {
   text-decoration: none;
-  padding-right: 50px;
- 
+   padding: 0px 20px; 
+  
 }
 
 .navsection ul li:hover {
   text-decoration: none;
-  padding: 15px;
+  padding: 15px 20px;
   background: cyan;
-  text-align: center;
-  
-
+ 
 }
+
+/*    main body part     */
 
 .contentsection {
   height: 31em;
-  background:#fff;
-
+  background: #fff;
 }
 
 .maincontent {
   width: 75%;
   height: 30em;
-  background: rgb(139, 176, 231);
+  background: rgb(202, 197, 197);
   float: left;
   padding: 1em;
   box-sizing: border-box;
-  padding-left: 2em;
-}
-
-.maincontent p {
-  
+  /* overflow: scroll; */
 }
 
 .sidebar {
@@ -82,28 +112,34 @@ body {
   padding: 1em;
 }
 
-.sidebarheader{
+.sidebarheader {
   background: #f9faf7;
-  padding: .5em;
+  padding: 0.5em;
 }
 
-.sidebarheader h2{
+.sidebarheader h2 {
   padding: 1em;
   background: #555555;
-  font-size: 1.5em;
+  font-size: 1.3em;
   text-align: center;
-
+  line-height: 20px;
 }
 
-.sidebar p {
-}
-
+/*          footer part    */
 .footersection {
   height: 7em;
-    background: #555555;
-    color: #fff;
-    text-align: center;
-    
+  background: #555555;
+  color: rgb(8, 0, 0);
 }
 
+.footercontent {
+  width: 30%;
+  position: relative;
+  float: left;
+  padding: 5px;
+  text-align: center;
+}
 
+.footercontent a {
+  text-decoration: none;
+}
