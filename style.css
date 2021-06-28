@@ -75,11 +75,24 @@ body {
 .sidebar {
   width: 25%;
   height: 30em;
-  background: #4d4e4a;
+  background: #d4d6d0;
   float: right;
-  border-left: 2px solid #d0e987;
+  border-left: 2px solid #40413f;
   box-sizing: border-box;
   padding: 1em;
+}
+
+.sidebarheader{
+  background: #f9faf7;
+  padding: .5em;
+}
+
+.sidebarheader h2{
+  padding: 1em;
+  background: #555555;
+  font-size: 1.5em;
+  text-align: center;
+
 }
 
 .sidebar p {
