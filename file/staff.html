@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 50%;
+            height: 200px;
+            background: green;
+            position: relative;
+            animation-name: example;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+            border-radius: 20px;
+        }
+
+        @keyframes example {
+            from {
+                top: 0px;
+                left: 25%;
+
+            }
+
+            to {
+                top: 80px;
+                left: 25%;
+                background-color: #333;
+
+            }
+        }
+
+        h2{
+            text-align: center;
+            padding-top: 20px;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <a href="#"><h2>Web Developers</h2></a>
+        <a href="#"><h2>Apps Developers</h2></a>
+        <a href="#"><h2>Director & Author</h2></a>
+
+    </div>
+</body>
+
+</html>

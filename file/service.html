@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* *{box-sizing: border-box;} */
+
+
+        .item {
+            float: left;
+            width: 235px;
+            margin: 5px;
+            height: 370px;
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+
+        .card {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        @media (max-width:400px) {
+            .item {
+                width: 250px;
+            }
+        }
+
+        @media (max-width:600px) {
+            .item {
+                width: 350px;
+            }
+        }
+
+        table {
+            border: none;
+            width: 100%;
+        
+
+        }
+
+        table tr th {
+            background: #000;
+            color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        table tr td{
+            line-height: 30px;
+            text-align: left;
+            padding-left: 1em;
+        }
+
+        table tr:nth-child(even){
+            background: #bbb;
+        }
+
+        table tr:hover{
+            background: cornflowerblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="item" style="background-color:#aaa;">
+            <table>
+                <tr>
+                    <th>Desktop Software</th>
+                </tr>
+                <tr>
+                    <td>3D View</td>
+                </tr>
+                <tr>
+                    <td>Adobe Acrobat Reader</td>
+                </tr>
+                <tr>
+                    <td>Alarm & Clock</td>
+                </tr>
+                <tr>
+                    <td>Team View </td>
+                </tr>
+                <tr>
+                    <td>Remote Desktop</td>
+                </tr>
+                <tr>
+                    <td>VNC Connent</td>
+                </tr>
+                <tr>
+                    <td>Zoho Assist</td>
+                </tr>
+            </table>
+        </div>
+        <div class="item" style="background-color:#aaa;">
+            <table>
+                <tr>
+                    <th>Application Software</th>
+                </tr>
+                <tr>
+                    <td>Online Office suite</td>
+                </tr>
+                <tr>
+                    <td>Photo sharing</td>
+                </tr>
+                <tr>
+                    <td>Video Streaming</td>
+                </tr>
+                <tr>
+                    <td>Music Streaming</td>
+                </tr>
+                <tr>
+                    <td>Mapping</td>
+                </tr>
+                <tr>
+                    <td>File sharing</td>
+                </tr>
+                <tr>
+                    <td>Virtual machine provisioning</td>
+                </tr>
+                <tr>
+                    <td>Blogging</td>
+                </tr>
+            </table>
+        </div>
+        <div class="item" style="background-color:#aaa;">
+            <table>
+                <tr>
+                    <th>Mobile Application</th>
+                </tr>
+                <tr>
+                    <td>Fitness</td>
+                </tr>
+                <tr>
+                    <td>Dating</td>
+                </tr>
+                <tr>
+                    <td>Food</td>
+                </tr>
+                <tr>
+                    <td>Music</td>
+                </tr>
+                <tr>
+                    <td>Travel</td>
+                </tr>
+                <tr>
+                    <td>Spotify</td>
+                </tr>
+                <tr>
+                    <td>Tripadvior</td>
+                </tr>
+                <tr>
+                    <td>Pinterest</td>
+                </tr><tr>
+                    <td>Snapchat</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</body>
+
+</html>
